@@ -1,4 +1,4 @@
-alignment top_right
+alignment bottom_left
 background no
 border_width 1
 cpu_avg_samples 2
@@ -12,7 +12,7 @@ draw_shades no
 use_xft yes
 xftfont terminus:size=16
 gap_x 5
-gap_y -20
+gap_y 0
 minimum_size 5 5
 net_avg_samples 2
 no_buffers yes
@@ -30,7 +30,7 @@ show_graph_scale no
 show_graph_range no
 
 TEXT
-${color #66AAAA}
+${color #444444}
 ${time}
 ${battery BAT1}
 ${cpugauge cpu1} ${cpugauge cpu2} ${cpugauge cpu3} ${cpugauge cpu4}
