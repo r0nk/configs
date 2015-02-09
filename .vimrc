@@ -1,6 +1,6 @@
 :set t_Co=256
 :syntax on
-:color jellybeans_modified
+:color maroloccio3
 :map \ :w <cr>:!clear<cr> :make<cr>
 :map <Tab> :tabn<cr>
 :map <BS> :!make run<cr>
